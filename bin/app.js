@@ -9,4 +9,4 @@ program.version('0.0.1')
 
 var envName = program.environment;
 
-app.create({envname: envName}, console.log, console.error);
+app.create({envName: envName}, console.log, console.error);
